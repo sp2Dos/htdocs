@@ -1,0 +1,66 @@
+30 Sept. 2006 XAMPP  1.5.4a
+
+- UPDATE OpenSSL 0.9.8d
+- UPDATE phpMyAdmin 2.9.0.1
+- Modify splash.php
+
+09 Sept. 2006 XAMPP  1.5.4 Release
+
+- UPDATE MySQL 5.0.24a
+- UPDATE OpenSSL 0.9.8c
+
+25 August 2006 XAMPP  1.5.4 Beta 3
+
+- UPDATE PHP 5.1.6 (plus PECL)
+
+24 August 2006 XAMPP  1.5.4 Beta 2
+
+- UPDATE PHP 5.1.5 (plus PECL)
+- UPDATE PHP 4.4.4
+- UPDATE phpMyAdmin 2.8.2.4
+
+14 August 2006 XAMPP  1.5.4 Beta 1
+- UPDATE Apache 2.2.3
+- UPDATE MySQL 5.0.24
+- UPDATE PHP 4.4.3
+- UPDATE phpMyAdmin 2.8.2.1
+- UPDATE FileZilla FTP Server 0.9.18
+- UPDATE Zend Optimizer 3.0.1
+- Upgrade PHP 5.1.4 apache2handler for Apache 2.2.3
+- Upgrade PHP 4.4.3 apache2handler for Apache 2.2.3
+- Upgrade PHP mysql(i) extension for MySQL 5.0.24
+- ADD eAccelerator 0.9.6-svn260-dev (not active)
+
+31 Mai 2006 XAMPP Release 1.5.3a Release
+- Fix problem for ssi support in httpd.conf
+
+28 Mai 2006, XAMPP Release
+- Delete eAccelarator PHP 4 (because instabil)
+ 
+22 Mai 2006, XAMPP 1.5.3 Beta 5
+- UPDATE  Control Panel 2.3
+- UPDATE  phpMyAdmin 2.8.1
+- Changings in the httpd.conf:
+	EnableMMAP off
+	EnableSendfile off
+
+12 Mai 2006, XAMPP 1.5.3 Beta 4
+- Fix Bug in my.cnf
+- UPDATE  cds.php
+- UPDATE lang
+
+09 Mai 2006, XAMPP 1.5.3 Beta 3
+- UPDATE Apache 2.2.2
+- UPDATE OpenSSL 0.9.8b
+- UPDATE FileZilla Server 0.9.16c
+
+Fix problems:
+[1] Priviledge Escaltation to SYSTEM due to FileZilla Service Path specification 
+[2] Priviledge Escaltation to SYSTEM due to MySQLadmin Path specification 
+[3] Priviledge Escaltation to SYSTEM due to CGI Path specification
+[4] Rogue Autostart due to unsecure File execution (only Installer) 
+See also: http://secdev.zoller.lu/research/xamp1.htm
+
+06 Mai 2006, XAMPP 1.5.3 Beta 1 
+- UPDATE MySQL 5.0.21 (without ssl support)
+- UPDATE PHP 5.1.4 with PECL 
